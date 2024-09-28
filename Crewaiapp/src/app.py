@@ -44,5 +44,5 @@ def download_filled_form(filename):
     return send_file(filled_form_path, as_attachment=True)
 
 # Start the Flask application
-if __name__ == '__main__':
-    app.run(debug=True)
+
+   
